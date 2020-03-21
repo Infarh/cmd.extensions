@@ -1,0 +1,1 @@
+FOR /F %p IN ('pip list -o') DO pip install %p -U
